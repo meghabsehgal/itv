@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Launch PMO: India Today Group Pitch Deck</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Google Fonts: Playfair Display for editorial feel, Inter for clean UI -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0b0c10;
+            color: #f3f4f6;
+        }
+        .serif-title {
+            font-family: 'Playfair Display', serif;
+        }
+        .slide {
+            display: none;
+            transition: opacity 0.5s ease-in-out;
+        }
+        .slide.active {
+            display: flex;
+            opacity: 1;
+        }
+        .glow-red {
+            box-shadow: 0 0 25px rgba(225, 29, 72, 0.2);
+        }
+    </style>
+</head>
+<body class="overflow-x-hidden min-h-screen flex flex-col justify-between">
+
+    <!-- Top Navigation Bar -->
+    <header class="w-full px-6 py-4 flex justify-between items-center border-b border-gray-800 bg-[#0b0c10]/90 backdrop-blur z-50">
+        <div class="flex items-center space-x-3">
+            <div class="h-8 w-8 rounded bg-gradient-to-tr from-rose-600 via-red-500 to-amber-400 flex items-center justify-center shadow-lg">
+                <i data-lucide="tv" class="h-4 w-4 text-white"></i>
+            </div>
+            <div>
+                <span class="text-xs uppercase tracking-widest text-rose-500 font-bold block">Enterprise Proposal</span>
+                <span class="text-sm font-semibold tracking-tight">Launch PMO &times; India Today Group</span>
+            </div>
+        </div>
+        <div class="flex items-center space-x-6 text-xs text-gray-400">
+            <span class="hidden md:inline">Prepared for: <strong>Executive Editorial Board, India Today Group</strong></span>
+            <span class="px-2.5 py-1 bg-rose-500/10 text-rose-400 border border-rose-500/20 rounded font-mono font-bold">CONFIDENTIAL</span>
+        </div>
+    </header>
+
+    <!-- Main Slide Container -->
+    <main class="flex-grow flex items-center justify-center p-4 md:p-8 max-w-7xl mx-auto w-full">
+        
+        <!-- SLIDE 1: THE COVER -->
+        <div id="slide-1" class="slide active w-full flex-col md:flex-row gap-8 items-center justify-between py-6">
+            <div class="w-full md:w-1/2 space-y-6">
+                <div class="inline-flex items-center space-x-2 bg-rose-500/10 border border-rose-500/20 px-3 py-1 rounded-full">
+                    <span class="h-2 w-2 rounded-full bg-rose-500 animate-pulse"></span>
+                    <span class="text-xs font-semibold uppercase tracking-wider text-rose-400">Enterprise Briefing</span>
+                </div>
+                <h1 class="serif-title text-4xl md:text-6xl text-white font-bold leading-tight">
+                    Eliminating <br>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-rose-500 via-red-400 to-amber-400">Multi-Desk Drag</span> <br>
+                    at Network Scale.
+                </h1>
+                <p class="text-gray-400 text-base md:text-lg leading-relaxed max-w-xl">
+                    Multi-channel operational intelligence across <span class="text-white font-medium">Aaj Tak, India Today TV, Good News Today, and Omnichannel Social Desks</span>—providing granular status tracking for every story from feed to air and social syndication.
+                </p>
+                <div class="flex flex-wrap gap-4 pt-4">
+                    <div class="flex items-center space-x-2 text-sm text-gray-300 bg-gray-900 px-4 py-2 rounded-lg border border-gray-800">
+                        <i data-lucide="shield-check" class="h-4 w-4 text-rose-400"></i>
+                        <span>Granular Story Lifecycles</span>
+                    </div>
+                    <div class="flex items-center space-x-2 text-sm text-gray-300 bg-gray-900 px-4 py-2 rounded-lg border border-gray-800">
+                        <i data-lucide="layers" class="h-4 w-4 text-amber-400"></i>
+                        <span>Omnichannel Syndication</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Executive Graphic Card -->
+            <div class="w-full md:w-5/12 flex justify-center">
+                <div class="relative w-full max-w-sm rounded-2xl overflow-hidden border border-gray-800 bg-gradient-to-b from-gray-900 to-black p-6 shadow-2xl glow-red">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-rose-500/10 rounded-full blur-3xl"></div>
+                    <div class="flex items-center space-x-4 mb-6">
+                        <div class="h-12 w-12 rounded-full bg-rose-950/60 border border-rose-500/30 flex items-center justify-center font-bold text-rose-400">
+                            ITG
+                        </div>
+                        <div>
+                            <h4 class="text-white font-semibold text-base">India Today Group</h4>
+                            <p class="text-xs text-rose-400">Multi-Channel Telemetry Engine</p>
+                        </div>
+                    </div>
+                    
+                    <div class="space-y-4 border-t border-gray-800/80 pt-4">
+                        <div class="flex justify-between items-center text-xs">
+                            <span class="text-gray-500">Cross-Channel Visibility:</span>
+                            <span class="text-rose-400 font-medium">Isolated Silos Today</span>
+                        </div>
+                        <div class="h-1.5 w-full bg-gray-800 rounded-full overflow-hidden">
+                            <div class="h-full bg-rose-500 w-1/4"></div>
+                        </div>
+                        
+                        <div class="flex justify-between items-center text-xs">
+                            <span class="text-gray-500">Proposed Matrix State:</span>
+                            <span class="text-emerald-400 font-medium">Real-Time Channel Drill-Down</span>
+                        </div>
+                        <div class="h-1.5 w-full bg-gray-800 rounded-full overflow-hidden">
+                            <div class="h-full bg-emerald-500 w-full animate-pulse"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-6 bg-[#0b0c10] rounded-xl p-4 border border-gray-800">
+                        <p class="text-xs text-gray-400 italic">
+                            "Complete lifecycle tracking for every story fed into the network today—across television, social platforms, and digital distribution."
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 2: THE PROBLEM -->
+        <div id="slide-2" class="slide w-full flex-col md:flex-row gap-8 items-center py-6">
+            <div class="w-full md:w-1/2 space-y-6">
+                <span class="text-xs uppercase tracking-widest text-rose-400 font-bold">The Multi-Channel Blind Spot</span>
+                <h2 class="serif-title text-4xl md:text-5xl text-white font-bold leading-tight">
+                    The Multi-Desk Visibility Gap
+                </h2>
+                <p class="text-gray-300 leading-relaxed text-base">
+                    The India Today Group operates diverse channels—from <strong>Aaj Tak</strong> and <strong>India Today TV</strong> to regional feeds and digital arms. Without centralized telemetry, leadership lacks a unified window into story status across broadcast and social platforms.
+                </p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
+                    <div class="bg-gray-900/60 p-5 rounded-xl border border-gray-800 space-y-2 hover:border-rose-500/30 transition-all">
+                        <div class="flex items-center space-x-2 text-rose-400 mb-1">
+                            <i data-lucide="git-pull-request" class="h-5 w-5"></i>
+                            <h3 class="font-semibold text-white">Channel Isolation</h3>
+                        </div>
+                        <p class="text-xs text-gray-400 leading-relaxed">
+                            Each channel operates in its own workflow ecosystem. Senior editors cannot verify at a glance whether a breaking story feed has been cleared, edited, or pushed to social desks.
+                        </p>
+                    </div>
+                    
+                    <div class="bg-gray-900/60 p-5 rounded-xl border border-gray-800 space-y-2 hover:border-rose-500/30 transition-all">
+                        <div class="flex items-center space-x-2 text-amber-400 mb-1">
+                            <i data-lucide="share-2" class="h-5 w-5"></i>
+                            <h3 class="font-semibold text-white">Social Syndication Lag</h3>
+                        </div>
+                        <p class="text-xs text-gray-400 leading-relaxed">
+                            Stories air on television long before clips are custom-cut for Twitter, Facebook, or Instagram Reels due to manual coordination bottlenecks and lack of stage visibility.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="w-full md:w-1/2 flex justify-center">
+                <div class="bg-gradient-to-b from-[#161720] to-[#0b0c10] border border-gray-800 rounded-2xl p-6 w-full max-w-md relative overflow-hidden">
+                    <div class="absolute top-0 left-0 bg-rose-500/10 px-3 py-1 rounded-br-lg border-r border-b border-rose-500/20 text-[10px] uppercase font-bold tracking-wider text-rose-400">Current Cross-Channel Friction</div>
+                    
+                    <div class="space-y-4 mt-6">
+                        <div class="flex items-start space-x-3 text-xs bg-gray-950/60 p-3 rounded-lg border border-gray-800">
+                            <div class="h-6 w-6 rounded bg-rose-500/20 text-rose-400 flex items-center justify-center font-bold text-[10px]">AAJ</div>
+                            <div class="flex-1">
+                                <span class="font-semibold text-white block">Aaj Tak News Desk</span>
+                                <span class="text-gray-400">"Is the political package cleared for prime-time broadcast or still with legal?"</span>
+                            </div>
+                            <span class="text-[10px] text-gray-500">14:02</span>
+                        </div>
+                        <div class="flex items-start space-x-3 text-xs bg-gray-950/60 p-3 rounded-lg border border-gray-800">
+                            <div class="h-6 w-6 rounded bg-blue-500/20 text-blue-400 flex items-center justify-center font-bold text-[10px]">DIG</div>
+                            <div class="flex-1">
+                                <span class="font-semibold text-white block">Digital / Social Team</span>
+                                <span class="text-gray-400">"Waiting on vertical video cuts for Twitter and Facebook Reels from today's presser."</span>
+                            </div>
+                            <span class="text-[10px] text-gray-500">14:18</span>
+                        </div>
+                        <div class="flex items-start space-x-3 text-xs bg-gray-950/60 p-3 rounded-lg border border-gray-800">
+                            <div class="h-6 w-6 rounded bg-amber-500/20 text-amber-400 flex items-center justify-center font-bold text-[10px]">EXEC</div>
+                            <div class="flex-1">
+                                <span class="font-semibold text-white block">Managing Editor</span>
+                                <span class="text-rose-400 italic font-medium">"We have zero unified visibility across our channel statuses today."</span>
+                            </div>
+                            <span class="text-[10px] text-gray-500">14:25</span>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-6 border-t border-gray-800 pt-4 flex justify-between items-center text-xs">
+                        <span class="text-gray-400">Syndication Delay:</span>
+                        <span class="font-mono text-rose-400 font-bold bg-rose-400/10 px-2 py-0.5 border border-rose-400/20 rounded">Fragmented Across Desks</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 3: MULTI-CHANNEL GRANULAR DASHBOARD ARCHITECTURE -->
+        <div id="slide-3" class="slide w-full flex-col gap-6 py-4">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+                <div>
+                    <span class="text-xs uppercase tracking-widest text-emerald-400 font-semibold">Granular Network Matrix</span>
+                    <h2 class="serif-title text-3xl md:text-4xl text-white font-bold">
+                        Channel-by-Channel Telemetry. <span class="text-rose-400 font-normal italic">Complete Story Lifecycle Visibility.</span>
+                    </h2>
+                </div>
+                <div class="flex items-center space-x-2 bg-emerald-500/15 border border-emerald-500/30 px-3 py-1.5 rounded-lg">
+                    <span class="h-2 w-2 rounded-full bg-emerald-400 animate-ping"></span>
+                    <span class="text-xs text-emerald-400 font-mono font-bold uppercase tracking-wider">Macro & Micro Drill-Down</span>
+                </div>
+            </div>
+            
+            <p class="text-gray-300 text-sm max-w-3xl">
+                The application provides an executive overview across all network channels, with the ability to click into any specific channel block to review every incoming story feed scheduled for presentation today.
+            </p>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                <!-- Channel Block 1: Aaj Tak -->
+                <div class="bg-[#111218] border border-gray-800 rounded-xl p-5 space-y-4 hover:border-rose-500/40 transition-all">
+                    <div class="flex justify-between items-center border-b border-gray-800 pb-3">
+                        <div class="flex items-center space-x-2">
+                            <div class="h-3 w-3 rounded-full bg-red-500"></div>
+                            <h3 class="font-bold text-white text-sm">Aaj Tak</h3>
+                        </div>
+                        <span class="text-[10px] font-mono bg-red-500/10 text-red-400 border border-red-500/20 px-2 py-0.5 rounded">LIVE CH 1</span>
+                    </div>
+                    <p class="text-xs text-gray-400">Today's Feed Status Overview: <strong class="text-white">18 Stories Queued</strong></p>
+                    
+                    <div class="space-y-2 text-xs">
+                        <div class="bg-gray-950 p-2.5 rounded border border-gray-800/80 flex justify-between items-center">
+                            <div>
+                                <span class="text-white font-medium block">Delhi Election Bulletin</span>
+                                <span class="text-[10px] text-emerald-400">● Editing Done | PCR Ready</span>
+                            </div>
+                            <span class="text-[10px] bg-emerald-500/10 text-emerald-400 px-1.5 py-0.5 rounded">ON-AIR</span>
+                        </div>
+                        <div class="bg-gray-950 p-2.5 rounded border border-gray-800/80 flex justify-between items-center">
+                            <div>
+                                <span class="text-white font-medium block">Inflation Debate Special</span>
+                                <span class="text-[10px] text-amber-400">● Script Approved | Awaiting Voiceover</span>
+                            </div>
+                            <span class="text-[10px] bg-amber-500/10 text-amber-400 px-1.5 py-0.5 rounded">IN-WORK</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Channel Block 2: India Today TV -->
+                <div class="bg-[#111218] border border-gray-800 rounded-xl p-5 space-y-4 hover:border-rose-500/40 transition-all">
+                    <div class="flex justify-between items-center border-b border-gray-800 pb-3">
+                        <div class="flex items-center space-x-2">
+                            <div class="h-3 w-3 rounded-full bg-amber-500"></div>
+                            <h3 class="font-bold text-white text-sm">India Today TV</h3>
+                        </div>
+                        <span class="text-[10px] font-mono bg-amber-500/10 text-amber-400 border border-amber-500/20 px-2 py-0.5 rounded">LIVE CH 2</span>
+                    </div>
+                    <p class="text-xs text-gray-400">Today's Feed Status Overview: <strong class="text-white">14 Stories Queued</strong></p>
+                    
+                    <div class="space-y-2 text-xs">
+                        <div class="bg-gray-950 p-2.5 rounded border border-gray-800/80 flex justify-between items-center">
+                            <div>
+                                <span class="text-white font-medium block">Global Summit Coverage</span>
+                                <span class="text-[10px] text-emerald-400">● Master Rendered | Studio Locked</span>
+                            </div>
+                            <span class="text-[10px] bg-emerald-500/10 text-emerald-400 px-1.5 py-0.5 rounded">READY</span>
+                        </div>
+                        <div class="bg-gray-950 p-2.5 rounded border border-gray-800/80 flex justify-between items-center">
+                            <div>
+                                <span class="text-white font-medium block">Tech Policy Exclusive</span>
+                                <span class="text-[10px] text-purple-400">● Legal Sign-off Pending</span>
+                            </div>
+                            <span class="text-[10px] bg-purple-500/10 text-purple-400 px-1.5 py-0.5 rounded">REVIEW</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Channel Block 3: Social & Digital Desks -->
+                <div class="bg-[#111218] border border-gray-800 rounded-xl p-5 space-y-4 hover:border-rose-500/40 transition-all">
+                    <div class="flex justify-between items-center border-b border-gray-800 pb-3">
+                        <div class="flex items-center space-x-2">
+                            <div class="h-3 w-3 rounded-full bg-blue-500"></div>
+                            <h3 class="font-bold text-white text-sm">Social & Digital Desks</h3>
+                        </div>
+                        <span class="text-[10px] font-mono bg-blue-500/10 text-blue-400 border border-blue-500/20 px-2 py-0.5 rounded">OMNICHANNEL</span>
+                    </div>
+                    <p class="text-xs text-gray-400">Syndication Status: <strong class="text-white">Twitter, FB, Reels</strong></p>
+                    
+                    <div class="space-y-2 text-xs">
+                        <div class="bg-gray-950 p-2.5 rounded border border-gray-800/80 flex justify-between items-center">
+                            <div>
+                                <span class="text-white font-medium block">Election Soundbite Reel</span>
+                                <span class="text-[10px] text-emerald-400">● Vertical Crop Done | Scheduled</span>
+                            </div>
+                            <span class="text-[10px] bg-blue-500/10 text-blue-400 px-1.5 py-0.5 rounded">INSTA/FB</span>
+                        </div>
+                        <div class="bg-gray-950 p-2.5 rounded border border-gray-800/80 flex justify-between items-center">
+                            <div>
+                                <span class="text-white font-medium block">Breaking News X Thread</span>
+                                <span class="text-[10px] text-emerald-400">● Published to Twitter Feed</span>
+                            </div>
+                            <span class="text-[10px] bg-sky-500/10 text-sky-400 px-1.5 py-0.5 rounded">TWITTER</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 4: END-TO-END STORY LIFECYCLE & MULTI-PLATFORM SYNDICATION -->
+        <div id="slide-4" class="slide w-full flex-col md:flex-row gap-8 items-center py-6">
+            <div class="w-full md:w-1/2 space-y-6">
+                <span class="text-xs uppercase tracking-widest text-rose-400 font-bold">Omnichannel Distribution Tracking</span>
+                <h2 class="serif-title text-4xl md:text-5xl text-white font-bold leading-tight">
+                    Beyond TV: <br>
+                    Tracking Every Platform.
+                </h2>
+                <p class="text-gray-300 leading-relaxed text-sm">
+                    A story's lifecycle doesn't end when it airs on television. The application tracks every downstream destination where news is presented—ensuring seamless handoffs across digital touchpoints.
+                </p>
+
+                <div class="space-y-4 pt-2">
+                    <div class="flex items-start space-x-4">
+                        <div class="p-2 bg-rose-500/10 rounded-lg border border-rose-500/20 text-rose-400">
+                            <i data-lucide="tv" class="h-5 w-5"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-white font-semibold text-sm">Linear Broadcast Status</h4>
+                            <p class="text-xs text-gray-400 mt-1">Real-time status tracking from bureau feed ingestion, script approval, voiceover, and PCR ready to on-air broadcast.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start space-x-4">
+                        <div class="p-2 bg-rose-500/10 rounded-lg border border-rose-500/20 text-rose-400">
+                            <i data-lucide="share-2" class="h-5 w-5"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-white font-semibold text-sm">Social Media Syndication (Twitter & Facebook)</h4>
+                            <p class="text-xs text-gray-400 mt-1">Automatic status indicators showing when breaking clips, threads, and graphical summaries have been generated and pushed to social channels.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start space-x-4">
+                        <div class="p-2 bg-rose-500/10 rounded-lg border border-rose-500/20 text-rose-400">
+                            <i data-lucide="video" class="h-5 w-5"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-white font-semibold text-sm">Shorts & Reels Production Tracking</h4>
+                            <p class="text-xs text-gray-400 mt-1">Monitors the vertical re-cropping and subtitle generation pipeline for Instagram Reels and YouTube Shorts.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Lifecycle visualization card -->
+            <div class="w-full md:w-1/2 flex justify-center">
+                <div class="bg-gradient-to-b from-gray-900 to-[#0b0c10] border border-gray-800 rounded-2xl p-6 w-full max-w-sm relative overflow-hidden glow-red">
+                    <span class="text-xs uppercase tracking-widest text-rose-400 font-bold block mb-4">Story Pipeline Status Tracker</span>
+                    
+                    <div class="space-y-3 text-xs">
+                        <div class="bg-gray-950 p-3 rounded-lg border border-gray-800 flex items-center justify-between">
+                            <span class="text-gray-300">1. Bureau Raw Feed Ingestion</span>
+                            <span class="text-emerald-400 font-mono">COMPLETED</span>
+                        </div>
+                        <div class="bg-gray-950 p-3 rounded-lg border border-gray-800 flex items-center justify-between">
+                            <span class="text-gray-300">2. Editorial & Legal Clearance</span>
+                            <span class="text-emerald-400 font-mono">VERIFIED</span>
+                        </div>
+                        <div class="bg-gray-950 p-3 rounded-lg border border-gray-800 flex items-center justify-between">
+                            <span class="text-gray-300">3. Television Broadcast Air</span>
+                            <span class="text-emerald-400 font-mono">ON-AIR NOW</span>
+                        </div>
+                        <div class="bg-gray-950 p-3 rounded-lg border border-gray-800 flex items-center justify-between">
+                            <span class="text-gray-300">4. Twitter / FB Thread Push</span>
+                            <span class="text-emerald-400 font-mono">PUBLISHED</span>
+                        </div>
+                        <div class="bg-gray-950 p-3 rounded-lg border border-gray-800 flex items-center justify-between">
+                            <span class="text-gray-300">5. Vertical Reels Render</span>
+                            <span class="text-amber-400 font-mono">RENDERING</span>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-6 bg-[#07080a] p-3 rounded-lg border border-gray-800/50">
+                        <p class="text-xs text-gray-400 italic">
+                            "Complete operational transparency across every format and platform from a single unified command interface."
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SLIDE 5: THE PARTNERSHIP BLUEPRINT -->
+        <div id="slide-5" class="slide w-full flex-col gap-8 py-6 font-sans">
+            <div class="text-center space-y-3 max-w-2xl mx-auto">
+                <span class="text-xs uppercase tracking-widest text-rose-400 font-semibold">Enterprise Rollout Blueprint</span>
+                <h2 class="serif-title text-4xl text-white font-bold">
+                    Phased Newsroom Deployment
+                </h2>
+                <p class="text-gray-400 text-sm">
+                    A three-stage deployment engineered to integrate with India Today's multi-channel media infrastructure without disrupting live daily broadcasting schedules.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-4">
+                <!-- Stage 1 -->
+                <div class="bg-gray-900/60 border border-gray-800 rounded-xl p-6 space-y-4 flex flex-col justify-between">
+                    <div class="space-y-3">
+                        <div class="flex justify-between items-center">
+                            <span class="h-8 w-8 rounded-lg bg-rose-500/10 border border-rose-500/20 text-rose-400 flex items-center justify-center font-mono font-bold text-sm">01</span>
+                            <span class="text-[10px] text-rose-400 font-mono tracking-widest font-bold uppercase">Week 1</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-white">Channel Mapping & Audit</h3>
+                        <p class="text-xs text-gray-400 leading-relaxed">
+                            Map the distinct workflow stops and syndication endpoints across Aaj Tak, India Today TV, and digital/social desks.
+                        </p>
+                    </div>
+                    <ul class="space-y-2 pt-2 border-t border-gray-800/60 text-[10px] text-gray-400 font-sans">
+                        <li class="flex items-center space-x-2">
+                            <i data-lucide="check" class="h-3 w-3 text-rose-400"></i>
+                            <span>Multi-channel feed path integration</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i data-lucide="check" class="h-3 w-3 text-rose-400"></i>
+                            <span>Desk-level role & permissions setup</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Stage 2 -->
+                <div class="bg-gray-900/60 border border-gray-800 rounded-xl p-6 space-y-4 flex flex-col justify-between">
+                    <div class="space-y-3">
+                        <div class="flex justify-between items-center">
+                            <span class="h-8 w-8 rounded-lg bg-rose-500/10 border border-rose-500/20 text-rose-400 flex items-center justify-center font-mono font-bold text-sm">02</span>
+                            <span class="text-[10px] text-rose-400 font-mono tracking-widest font-bold uppercase">Weeks 2-3</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-white">Dashboard Matrix Build</h3>
+                        <p class="text-xs text-gray-400 leading-relaxed">
+                            Develop the macro-overview and channel drill-down matrix with real-time story status telemetry and social syndication triggers.
+                        </p>
+                    </div>
+                    <ul class="space-y-2 pt-2 border-t border-gray-800/60 text-[10px] text-gray-400 font-sans">
+                        <li class="flex items-center space-x-2">
+                            <i data-lucide="check" class="h-3 w-3 text-rose-400"></i>
+                            <span>Multi-channel status telemetry engine</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i data-lucide="check" class="h-3 w-3 text-rose-400"></i>
+                            <span>Automated social publishing hooks</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Stage 3 -->
+                <div class="bg-gray-900/60 border border-gray-800 rounded-xl p-6 space-y-4 flex flex-col justify-between">
+                    <div class="space-y-3">
+                        <div class="flex justify-between items-center">
+                            <span class="h-8 w-8 rounded-lg bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 flex items-center justify-center font-mono font-bold text-sm">03</span>
+                            <span class="text-[10px] text-emerald-400 font-mono tracking-widest font-bold uppercase">Week 4</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-white">Pilot & Network Go-Live</h3>
+                        <p class="text-xs text-gray-400 leading-relaxed">
+                            Deploy the multi-channel dashboard across target desks before full executive rollout across the entire network group.
+                        </p>
+                    </div>
+                    <ul class="space-y-2 pt-2 border-t border-gray-800/60 text-[10px] text-gray-400 font-sans">
+                        <li class="flex items-center space-x-2">
+                            <i data-lucide="check" class="h-3 w-3 text-emerald-400"></i>
+                            <span>Target channel desk pilot testing</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <i data-lucide="check" class="h-3 w-3 text-emerald-400"></i>
+                            <span>Executive board dashboard handoff</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="mt-6 bg-[#161720]/60 border border-gray-800 p-6 rounded-xl text-center max-w-3xl mx-auto">
+                <h4 class="text-xs font-semibold text-rose-400 tracking-wider uppercase mb-2">Next Step / Way Forward</h4>
+                <p class="text-xs text-gray-300 leading-relaxed font-sans">
+                    We propose a brief <strong class="text-white">15-minute operational alignment conversation</strong> with India Today's editorial and technology leads to map your channel pipeline and review the live multi-channel matrix blueprint.
+                </p>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Bottom Controls and Progress Bar -->
+    <footer class="w-full bg-[#0b0c10] border-t border-gray-800 py-4 px-6 flex justify-between items-center z-50">
+        <div class="flex items-center space-x-2">
+            <span class="text-xs text-gray-400 font-mono mr-2" id="slide-index">Slide 1 of 5</span>
+            <div class="flex items-center space-x-1.5" id="dots-container"></div>
+        </div>
+        
+        <div class="flex items-center space-x-3">
+            <button onclick="prevSlide()" class="px-3 py-1.5 bg-gray-900 border border-gray-800 hover:border-gray-700 rounded-lg text-xs text-gray-300 hover:text-white transition-all flex items-center space-x-1.5">
+                <i data-lucide="chevron-left" class="h-4 w-4"></i>
+                <span>Prev</span>
+            </button>
+            <button onclick="nextSlide()" class="px-4 py-1.5 bg-rose-500/10 border border-rose-500/20 hover:bg-rose-500/20 hover:border-rose-500/30 rounded-lg text-xs font-semibold text-rose-400 transition-all flex items-center space-x-1.5">
+                <span>Next</span>
+                <i data-lucide="chevron-right" class="h-4 w-4"></i>
+            </button>
+        </div>
+    </footer>
+
+    <!-- Script & Lucide Integration -->
+    <script>
+        let currentSlideIndex = 1;
+        const totalSlides = 5;
+
+        document.addEventListener('DOMContentLoaded', () => {
+            lucide.createIcons();
+            buildProgressDots();
+            updateProgressIndicators();
+            setupKeyboardNavigation();
+        });
+
+        function buildProgressDots() {
+            const container = document.getElementById('dots-container');
+            container.innerHTML = '';
+            for (let i = 1; i <= totalSlides; i++) {
+                const dot = document.createElement('button');
+                dot.id = `dot-${i}`;
+                dot.className = `h-2 rounded-full transition-all duration-300 ${i === 1 ? 'w-6 bg-rose-500' : 'w-2 bg-gray-700 hover:bg-gray-500'}`;
+                dot.setAttribute('onclick', `goToSlide(${i})`);
+                container.appendChild(dot);
+            }
+        }
+
+        function updateProgressIndicators() {
+            document.getElementById('slide-index').textContent = `Slide ${currentSlideIndex} of ${totalSlides}`;
+            for (let i = 1; i <= totalSlides; i++) {
+                const dot = document.getElementById(`dot-${i}`);
+                if (dot) {
+                    if (i === currentSlideIndex) {
+                        dot.className = 'h-2 w-6 bg-rose-500 transition-all duration-300 rounded-full';
+                    } else {
+                        dot.className = 'h-2 w-2 bg-gray-700 hover:bg-gray-500 transition-all duration-300 rounded-full';
+                    }
+                }
+            }
+        }
+
+        function goToSlide(index) {
+            if (index < 1 || index > totalSlides) return;
+            document.getElementById(`slide-${currentSlideIndex}`).classList.remove('active');
+            currentSlideIndex = index;
+            document.getElementById(`slide-${currentSlideIndex}`).classList.add('active');
+            updateProgressIndicators();
+        }
+
+        function prevSlide() {
+            if (currentSlideIndex > 1) {
+                goToSlide(currentSlideIndex - 1);
+            } else {
+                goToSlide(totalSlides);
+            }
+        }
+
+        function nextSlide() {
+            if (currentSlideIndex < totalSlides) {
+                goToSlide(currentSlideIndex + 1);
+            } else {
+                goToSlide(1);
+            }
+        }
+
+        function setupKeyboardNavigation() {
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'ArrowRight') {
+                    nextSlide();
+                } else if (e.key === 'ArrowLeft') {
+                    prevSlide();
+                }
+            });
+        }
+    </script>
+</body>
+</html>
